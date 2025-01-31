@@ -1,0 +1,82 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+@media (max-width:1000px){
+    .menuuu{
+        display: none;
+    }
+    .hero__list{
+        max-width: 768px;
+        margin: 0 auto;
+    }
+.logo{
+    display: none;
+}
+.desktop{
+    max-width:733px; height:231px;
+    margin: 0 auto;
+}
+}
+.tablet{
+    display:none;
+}
+.hero__list li:hover{
+    transform: scale(1.05);
+              .nom{
+                color:rgb(25, 0, 249)
+              }
+
+}
+.hero__list li{
+    transition:0.3s ease-in-out;
+}
+.menu{
+    display: none;
+}
+
+@media (max-width:9999px){
+    .menuuu{
+        display:none;
+    }
+    
+}
+@media (max-width:390px){
+    .menuuu{
+        display: block;
+    }
+    .header__list li{
+        display: none;
+    }
+    
+    .hero__list{
+        max-width: 400px;
+        padding: 0 20px;
+    }
+    .hero__list li{
+        max-width: 173px;
+height: 313px;
+
+
+    }
+    .desktop{
+        max-width:378px; height:auto;
+        margin: 0 auto;
+    }
+    footer{
+        display:block;
+       flex-direction: column;
+    }
+}
+.mobile{
+    display: none;
+}
+
+#button1, #button2, #button3, #button4, #button5, #button6, #button7, #button8, #button9, #button10, #button11, #button12 {
+    cursor: pointer;
+}
+#button1, #button2, #button3, #button4, #button5, #button6, #button7, #button8, #button9, #button10, #button11, #button12:focus {
+    border: none;
+    outline: none;
+}
